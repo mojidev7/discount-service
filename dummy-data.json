@@ -1,0 +1,37 @@
+{
+    "Category": [
+        {
+            "name": "Electronics",
+            "parentId": 0,
+            "discount": {
+                "discount": 0.2,
+                "code": "e0"
+            }
+        },
+        {
+            "name": "Phones",
+            "parentId": 1
+        }
+    ],
+    "Product": [
+        {
+            "code": "iph10",
+            "price": 1200,
+            "categoryId": 1,
+            "discount": {
+                "discount": 0.2,
+                "code": "a10"
+            }
+        },
+        {
+            "code": "iph11",
+            "price": 1100,
+            "categoryId": 2
+        },
+        {
+            "code": "asusx550",
+            "price": 999,
+            "categoryId": 1
+        }
+    ]
+}

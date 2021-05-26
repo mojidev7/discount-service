@@ -1,0 +1,40 @@
+{
+  "name": "discount-service",
+  "version": "1.0.0",
+  "description": "Test discount service",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./src/system/bin/www",
+    "migration": "node ./src/system/bin/migration.js",
+    "dummy": "node ./src/system/bin/dummy.js",
+    "test": "jest",
+    "pm2": "pm2 start processes.json --no-daemon",
+    "pm2:stop": "pm2 stop processes.json --no-daemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojidev7/discount-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojidev7/discount-service/issues"
+  },
+  "homepage": "https://github.com/mojidev7/discount-service#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "pm2": "^4.5.6",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "jest": "^27.0.0"
+  }
+}
