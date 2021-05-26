@@ -54,7 +54,7 @@ if product havent any discount code then discount-service try to use the discoun
 simple as hell
 just to try POST data to below address:
 
-POST: http://localhost:8080/api/v1/discount
+POST: http://localhost:3000/api/v1/discount
 
 with required body of:
 ``
