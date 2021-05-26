@@ -2,7 +2,8 @@
 get some discounts based on products or categories
 
 ## Structure
-in this service there are three tables:
+in this service there are three tables
+
 ![tables](/tables.png)
 
 ## Simplifcation
@@ -36,6 +37,7 @@ Category has many Products (simplified; because one product may have multiple ca
 ## How to install?
 
 `docker-compose run discount-service npm run migration`
+
 `docker-compose up -d`
 
 ## How it works?
