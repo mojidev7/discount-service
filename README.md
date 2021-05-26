@@ -20,6 +20,7 @@ Category has many Products (simplified; because one product may have multiple ca
 
 ## Structure
 
+```
 -src
 ---service (contains app logic)
 -----category 
@@ -30,9 +31,12 @@ Category has many Products (simplified; because one product may have multiple ca
 -----config (db connection)
 -----model (repository for models)
 -app.js
+```
 
 ## How to install?
+
 `docker-compose run discount-service npm run migration`
+`docker-compose up -d`
 
 ## How it works?
 
@@ -49,9 +53,13 @@ simple as hell
 just to try POST data to below address:
 
 POST: http://localhost:8080/api/v1/discount
-with required body of: 
 
-
-
+with required body of:
+``
+{
+    "productCode": "iph10",
+    "discountCode": "a10"
+}
+``
 
 
